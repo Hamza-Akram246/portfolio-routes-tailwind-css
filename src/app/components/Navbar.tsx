@@ -33,19 +33,19 @@ const Navbar = () => {
        {isMenuOpen && (
         <ul className={`nevbar-menu ${isMenuOpen ? 'open' : '' }`}>
           <li className='navbar-link'>
-            <a href="/" onClick={toggleMenu}>Home</a>
+            <Link href="/" onClick={toggleMenu}/>Home
           </li>
           <li className='navbar-link'>
-            <a href="/about" onClick={toggleMenu}>About</a>
+            <Link href="/about" onClick={toggleMenu}/>About
           </li>
           <li className='navbar-link'>
-            <a href="/projects" onClick={toggleMenu}>Projects</a>
+            <Link href="/projects" onClick={toggleMenu}/>Projects
           </li>
           <li className='navbar-link'>
-            <a href="/skills" onClick={toggleMenu}>Skills</a>
+            <Link href="/skills" onClick={toggleMenu}/>Skills
           </li>
           <li className='navbar-link'>
-            <a href="/contact" onClick={toggleMenu}>Contact</a>
+            <Link href="/contact" onClick={toggleMenu}/>Contact
           </li>
 
         </ul>
